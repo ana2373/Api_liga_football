@@ -1,0 +1,147 @@
+/* ===== GENERAL ===== */
+
+body{
+    background-color:#f4f7fa;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar-custom{
+    background-color:#0d1b2a;
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:10px;
+    transition:0.3s;
+}
+
+.nav-link:hover{
+    color:#4dabf7 !important;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+    background:linear-gradient(
+        135deg,
+        #0d1b2a,
+        #1b263b
+    );
+
+    color:white;
+    text-align:center;
+    padding:80px;
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:1.2rem;
+}
+
+/* ===== CARDS ===== */
+
+.card-custom{
+    border:none;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card-custom:hover{
+    transform:translateY(-10px);
+}
+
+.card-custom .card-body{
+    padding:30px;
+}
+
+.card-custom h3{
+    color:#0d1b2a;
+}
+
+/* ===== TABLAS ===== */
+
+.table{
+    background:white;
+}
+
+.table thead{
+    background:#0d1b2a;
+    color:white;
+}
+
+.table tbody tr:hover{
+    background:#e9ecef;
+}
+
+/* ===== BOTONES ===== */
+
+.btn-primary{
+    background:#0d6efd;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#0b5ed7;
+}
+
+.btn-secondary{
+    background:#1b263b;
+    border:none;
+}
+
+/* ===== TITULOS ===== */
+
+.page-title{
+    color:#0d1b2a;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+    margin-top:auto;
+    background:#0d1b2a;
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+footer h5{
+    margin-bottom:10px;
+}
+
+footer p{
+    margin:0;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:768px){
+
+    .hero{
+        padding:40px;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+}
